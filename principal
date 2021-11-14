@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<title>fique feliz</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+<style>
+  body {
+    font-family: "Raleway", Arial, sans-serif
+  }
+
+  .w3-row img {
+    margin-bottom: -8px
+  }
+</style>
+
+<body>
+
+  <!-- !PAGE CONTENT! -->
+  <div class="w3-content" style="max-width:1500px">
+
+    <!-- Header -->
+    <header class="w3-container w3-xlarge w3-padding-24">
+      <a href="#ca" class="w3-left w3-button w3-white">Cachorros</a>
+      <a href="#ga" class="w3-left w3-button w3-white">Gatos</a>
+      <a href="#ham" class="w3-midle w3-button w3-white">Hamsters</a>
+      <a href="#about" class="w3-right w3-button w3-white">Sobre</a>
+    </header>
+
+    <!-- grid de fotos cachorros -->
+    <div class="w3-row">
+      <div class="w3-half">
+        <img src="dogs1.jpg" style="width:100%">
+        <img src="dogs2.jpg" style="width:100%">
+        <img src="dogs5.jpg" style="width:100%">
+    </div>
+
+      <div class="w3-half">
+        <img src="dogs3.jpg" style="width:100%">
+        <img src="dogs4.jpg" style="width:100%">
+    </div>
+    </div>
+
+    <!-- grid de fotos gatos  -->
+
+    <footer class="w3-light-grey w3-padding-64 w3-center" id="ga">
+      <h2>Gatos</h2>
+
+      <div class="w3-row">
+        <div class="w3-half">
+          <img src="cats3.jpg" style="width:75%">
+          <!--<img src="cats2.jpg" style="width:100%">-->
+          <!-<img src="cats1.jpg" style="width:100%">-->
+        </div>
+
+        <div class="w3-half">
+          <img src="cats4.jpg" style="width:100%">
+          <img src="cats5.jpg" style="width:100%">
+    </div>
+
+        <!-- grid de fotos hamsters  -->
+
+        <footer class="w3-white w3-padding-64 w3-center" id="ham">
+          <h2>Hamsters</h2>
+
+          <div class="w3-row">
+            <div class="w3-half">
+              <img src="ham9.jpeg" style="width:100%">
+              <img src="ham7,jpeg" style="width:100%">
+              <img src="ham8.jpeg" style="width:100%">
+    </div>
+
+            <div class="w3-half">
+              <img src="ham2.jpeg" style="width:100%">
+              <img src="ham4.jpeg" style="width:100%">
+    </div>
+          </div>
+          <!-- End Page Content -->
+      </div>
+
+      <!-- Footer / About Section -->
+      <footer class="w3-light-grey w3-padding-64 w3-center" id="about">
+        <h2>Sobre</h2>
+        <img src="eu.jpg" class="w3-image w3-padding-32" width="300" height="300">
+        <form style="margin:auto;width:60%" action="/action_page.php" target="_blank">
+          <p>Um site criado por um aluno para poder alegar o dia de pessoas que estão com dificuldades ou estão
+            entediadas e
+            querem ficar felizes.Para colocar mais fotos ou entrar em contato para melhorias minhas informações para
+            contato
+            estaram a baixo.</p>
+
+          <h3>Contato</h3>
+
+          <a href="https://www.instagram.com/renatooalvess_/" target="_blank"
+            class="fotos-hover-text-green">instagram</a></p>
+          <a href="https://twitter.com/renatoalves06_" target="_blank" class="fotos-hover-text-green">twitter </a></p>
+          <!--<a href="" target="_blank" class="fotos-hover-text-green"></a></p>-->
+      </footer>
+
+</body>
+
+</html>
